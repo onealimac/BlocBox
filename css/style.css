@@ -450,6 +450,9 @@ html, body{
    font-weight: 400;
    margin:0 0 0 10px;
  }
+  .currentPage:active {
+	 background-color: yellow; 
+ }
  .left-nav .settings a {
    color:#FFFFFF;
    text-decoration: none;
@@ -458,6 +461,7 @@ html, body{
    margin-right:10px;
    margin-top:8px;
  }
+
   /* CONTENT */
  .content {
    padding:6em 1% 1.5em;
