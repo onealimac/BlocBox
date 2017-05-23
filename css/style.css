@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 html, body{
    overflow-x: hidden;
  }
@@ -44,7 +43,220 @@ html, body{
    margin:0 2% 20px;
  }
  
+ @media (min-width: 375px){
+ #relativeOne-half{
+	 position: relative;
+ }
+ #absoluteLogo{
+	position: absolute;	 
+ }
+  #absoluteSignIn{
+	 position: absolute;
+	 bottom: 10px;
+	 right: 25%;	 
+ }
+ #absoluteSignUpBtn{
+	position: absolute;
+	bottom: 0px;
+	right: -7%;
+ }
+     .footer-nav-block{
+	  position: relative;
+	 width: 100%;
+ }
+  .left-footer-block{
+	 position: absolute;
+	 left: 16%;
+	 top: -8px;
+ }
+  .middle-footer-block{
+	 position: absolute;
+	 left: 10%;
+	 top: 12px;
+	 width: 75%;
+	 
+ }
+   .right-footer-block{
+	 display: none;
+ } 
+ } 
+ 
+ @media (min-width: 414px){
+ #relativeOne-half{
+	 position: relative;
+ }
+ #absoluteLogo{
+	position: absolute;	 
+ }
+  #absoluteSignIn{
+	 position: absolute;
+	 bottom: 10px;
+	 right: 25%;
+	 
+ }
+ #absoluteSignUpBtn{
+	position: absolute;
+	bottom: 0px;
+	right: -4%;
+ }
+ 
+    .footer-nav-block{
+	  position: relative;
+	 width: 100%;
+ }
+  .left-footer-block{
+	 position: absolute;
+	 left: 16%;
+	 top: -8px;
+ }
+  .middle-footer-block{
+	 position: absolute;
+	 left: 10%;
+	 top: 12px;
+	 width: 75%;
+	 
+ }
+   .right-footer-block{
+	 display: none;
+ } 
+ } 
+ 
+   @media (min-width: 768px){
+ #relativeOne-half{
+	 position: relative;
+ }
+ #absoluteLogo{
+	position: absolute;	 
+ }
+  #absoluteSignIn{
+	 position: absolute;
+	 bottom: 10px;
+	 right: 17%;	 
+ }
+ #absoluteSignUpBtn{
+	position: absolute;
+	bottom: 0px;
+	right: 0%;
+ }
+     .footer-nav-block{
+	  position: relative;
+	 width: 100%;
+ }
+ .left-footer-block{
+	 position: absolute;
+	 left: 16%;
+	 top: -8px;
+ }
+  .middle-footer-block{
+	 position: absolute;
+	 left: 10%;
+	 top: 12px;
+ }
+    .right-footer-block{
+	 display: none;
+ } 
+   .right-footer-block{
+	   display: block;
+	 position: absolute;
+	 width:0%;
+	 left: 500px;
+ }
+  } 
+ 
+
+  @media (min-width: 1024px){
+ #relativeOne-half{
+	 position: relative;
+ }
+ #absoluteLogo{
+	position: absolute;	 
+ }
+  #absoluteSignIn{
+	 position: absolute;
+	 top: 5px;
+	 right: 30%;	 
+ }
+ #absoluteSignUpBtn{
+	position: absolute;
+	bottom: -20px;
+	right: 0%;
+ }
+ 
+  .footer-nav-block{
+	  position: relative;
+ }
+ .left-footer-block{
+	 position: absolute;
+	 left: 0%;
+	 top: 8px;
+ }
+  .middle-footer-block{
+	 position: absolute;
+	 left: 33%;
+	 top: 8px;
+ }
+   .right-footer-block{
+	 position: absolute;
+	 left: 700px;
+	 width: 15%;
+	    background-image: 
+	 linear-gradient(to left,
+        #3498DB 0%, #3498DB 33.33337%, #34495E 33.33337%, #34495E 100%);
+	 background-image: linear-gradient(to top,
+      #3498DB 0%, #3498DB 100%, #34495E 100%, #34495E 100%);
+ }
+ }
+   @media (min-width: 1281px){
+ #relativeOne-half{
+	 position: relative;
+ }
+ #absoluteLogo{
+	position: absolute;	 
+ }
+  #absoluteSignIn{
+	 position: absolute;
+	 top: 5px;
+	 right: 30%;	 
+ }
+ #absoluteSignUpBtn{
+	position: absolute;
+	bottom: -20px;
+	right: 0%;
+ }
+ 
+  .footer-nav-block{
+	  position: relative;
+ }
+ .left-footer-block{
+	 position: absolute;
+	 left: 0%;
+	 top: 8px;
+ }
+  .middle-footer-block{
+	 position: absolute;
+	 left: 33%;
+	 top: 8px;
+ }
+   .right-footer-block{
+	 position: absolute;
+	 left: 855px;
+	 width: 15%;
+	    background-image: 
+	 linear-gradient(to left,
+        #3498DB 0%, #3498DB 33.33337%, #34495E 33.33337%, #34495E 100%);
+	 background-image: linear-gradient(to top,
+      #3498DB 0%, #3498DB 100%, #34495E 100%, #34495E 100%);
+ }
+ }
+  
+
  /* Media Queries */
+  @media (min-width: 320px){
+	.hero img {
+	   width:75%;
+	   height:55%;
+   }
+ }
   @media (min-width: 768px) {
    .container {
      width: 750px;
@@ -146,12 +358,6 @@ html, body{
  header .hero img {
    display: block;
    margin:3em auto 0;
- }
- @media (min-width: 320px){
-	.hero img {
-	   width:75%;
-	   height:55%;
-   }
  }
 
  
@@ -326,9 +532,7 @@ html, body{
  
  /* FOOTER */
  footer {
-   background-color: #34495E;
-   background-image: linear-gradient(to top,
-      #3498DB 0%, #3498DB 50%, #34495E 50%, #34495E 100%);
+   background-color: #34495E;	  
    color: #FFFFFF;
    height: 150px;
    position: relative;
@@ -359,8 +563,6 @@ html, body{
  }
    footer{
      background-color: #3498DB;
-     background-image: linear-gradient(to left,
-        #3498DB 0%, #3498DB 33.33337%, #34495E 33.33337%, #34495E 100%);
      height: 100px;
    }
    footer p, footer nav ul{
@@ -372,11 +574,6 @@ html, body{
    }
    footer .logo{
      padding: 2em 0 2em 1.5em;
-   }
-   @media (max-width: 768px){
-	   footer {
-		   display: none;
-	   }
    }
    
     /* DASHBOARD */
@@ -905,11 +1102,28 @@ html, body{
    padding:20px 0 0 0;
  }
  
+  .callToAction {
+   text-align: center;
+   display:block;
+   position: relative;
+   	 margin-bottom: 50px;
+
+ }
+ .callToAction h1 {
+   font-size:48px;
+   font-weight: normal;
+   margin:0px 0 0;
+ }
+ .callToAction p {
+   font-size: 22px;
+   line-height: 26px;
+   font-weight: 100;
+   margin:0 0 40px;
+ } 
+ 
  /* FOOTER */
  footer {
    background-color: #34495E;
-   background-image: linear-gradient(to top,
-      #3498DB 0%, #3498DB 50%, #34495E 50%, #34495E 100%);
    color: #FFFFFF;
    height: 150px;
    position: relative;
@@ -939,9 +1153,6 @@ html, body{
    display: block;
  }
    footer{
-     background-color: #3498DB;
-     background-image: linear-gradient(to left,
-        #3498DB 0%, #3498DB 33.33337%, #34495E 33.33337%, #34495E 100%);
      height: 100px;
    }
    footer p, footer nav ul{
@@ -953,11 +1164,6 @@ html, body{
    }
    footer .logo{
      padding: 2em 0 2em 1.5em;
-   }
-   @media (max-width: 768px){
-	   footer {
-		   display: none;
-	   }
    }
    
     /* DASHBOARD */
@@ -1160,5 +1366,4 @@ html, body{
    color: #333333;
    line-height: 18px;
    margin:5px 0 0;
->>>>>>> df2d06d00f55d195c53061470600c375ebf50655
  }
